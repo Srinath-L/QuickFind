@@ -54,3 +54,52 @@ It provides **fast indexing** and **near-instant searching**, and can also be us
 ```bash
 g++ main.cpp -o quickfind.exe
 quickfind.exe
+
+```
+
+---
+
+## 📖 Usage
+
+1. Enter the directory to index  
+2. Wait for indexing to complete  
+3. Search files by name  
+4. Type `exit` to quit  
+
+---
+
+## 📤 Output
+
+- Displays matching file paths  
+- Shows total result count  
+- Prints indexing time  
+
+---
+
+## ⚡ Performance Notes
+
+- Designed for large Windows file systems  
+- Search is near-instant after indexing  
+- Indexing performance depends on disk speed and file count  
+
+---
+
+## ⚠️ Limitations
+
+- Searches filenames only  
+- Command-line interface  
+- No persistent index storage yet  
+
+---
+
+## 📜 License
+
+MIT License  
+
+---
+
+## 🤝 Contributing
+
+Contributions and optimizations are welcome.
+
+QuickFind is intended for **learning systems programming, concurrency, and high-performance C++ on Windows**.
